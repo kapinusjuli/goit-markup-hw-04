@@ -495,13 +495,16 @@ padding: 32px 15px 0px 15px;
 
 .personal-links {
     display: flex;
+    width: 206px;
     color: #AFB1B8;
 
 }
 .link-icon {
     display: block;
-    width: 44px;
-    height: 44px;
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    /* width: 44px;
+    height: 44px; */
 }
 
 .personal-links :hover, :focus{color: var(--accent-color)3;}
