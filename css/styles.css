@@ -404,7 +404,7 @@ padding: 32px 15px 0px 15px;
 
     background-color: rgba(47, 48, 58, 0.8);
     color: var(--primary-text-color);
-    font-weight: 900;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.14em;
     text-transform: uppercase;
@@ -652,6 +652,8 @@ flex-wrap: wrap;
 }
 
 .product-item {
+    position: S;
+
     width: 370px;
     margin-right: 30px;
     margin-bottom: 30px;
@@ -679,6 +681,12 @@ flex-wrap: wrap;
 
 }
 
+.products-description {
+
+position: absolute;
+
+}
+
 .product-photo p {
     color: var(--title-text-color);
     font-weight: 400;
@@ -686,6 +694,8 @@ flex-wrap: wrap;
     line-height: 1.87em;
     letter-spacing: 0.03em;
 }
+
+
 .descr-secondary{
     display: none;
 }
